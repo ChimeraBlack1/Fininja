@@ -11,13 +11,13 @@ const styles = {
 
     item: {
       color: "#000",
-      fontSize: 40,
+      fontSize: 28,
       fontWeight: "bold",
       
       cursor: "pointer",
 
       paddingLeft: "12%",
-      paddingTop: "8%",
+      paddingTop: "10%",
 
     } 
 
@@ -36,6 +36,9 @@ export default class Menu extends Component {
         </div>
         <div style={styles.item}>
             Inventory
+        </div>
+        <div style={styles.item}>
+            Employees
         </div>
         <div style={styles.item}>
             General
